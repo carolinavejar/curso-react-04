@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { AddCategory } from './components/AddCategory'; './components/AddCategory'
 
 export const GifExpertApp = () => {
 
@@ -19,7 +20,7 @@ export const GifExpertApp = () => {
 
 
             {/* Input */}
-
+            <AddCategory></AddCategory>
 
             {/* Listado de Gifs */}
             <ol>
