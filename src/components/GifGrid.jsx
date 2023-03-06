@@ -7,6 +7,9 @@ export const GifGrid =  ( { category } ) => {
     return (
         <>
             <h4> { category } </h4>
+            {
+                isLoading && (<h4> Cargando ... </h4>)
+            }
             
             <div className="card-grid">
             { 
