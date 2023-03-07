@@ -5,22 +5,12 @@ exports[`Pruebas en GifItem Debe hacer mach con el snapshot 1`] = `
   <div
     class="card"
   >
+    <p>
+      Titulo ...
+    </p>
     <img
       alt="Titulo ..."
       src="http://"
-    />
-  </div>
-</div>
-`;
-
-exports[`test prueba Debe hacer mach con el snapshot 1`] = `
-<div>
-  <div
-    class="card"
-  >
-    <img
-      alt="Titulo ..."
-      src="Titulo ..."
     />
   </div>
 </div>
