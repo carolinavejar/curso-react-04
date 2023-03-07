@@ -7,10 +7,10 @@ describe('Pruebas en getGifs', ()=> {
         const gifs = await getGifs('Rihanna')
 
         expect (gifs.length).toBeGreaterThan(0);
-        expect(gifs[0].toEqual({
+        expect(gifs[0]).toEqual({
             id: expect.any(String), 
             title: expect.any(String), 
             url: expect.any(String), 
-        }))
+        })
     });
 })
